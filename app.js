@@ -1,5 +1,5 @@
 
-const API_URL = 'https://portofolio-be-seven.vercel.app/api/';
+const API_URL = 'http://portofolio-dfjznk9p0-sariffudins-projects-d51ac99f.vercel.app/';
 
 document.getElementById('contactForm').addEventListener('submit', function(e) {
     e.preventDefault();
