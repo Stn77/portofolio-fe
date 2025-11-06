@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yusuf Sarif Fudin - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">Stone7</div>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Hi, I'm Yusuf Sarif Fudin</h1>
+                <div class="subtitle">aka Stone7</div>
+                <p>Seorang pelajar SMK jurusan Rekayasa Perangkat Lunak yang passionate dalam pengembangan aplikasi web dan mobile. Bercita-cita menjadi seseorang yang menguasai ilmu IT dan bermanfaat bagi masyarakat sekitar.</p>
+                <div class="social-links">
+                    <a href="https://github.com/Stn77" target="_blank" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/suyut_io.zip/" target="_blank" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/yusuf.fudin.5" target="_blank" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="https://id.linkedin.com/in/yusuf-sarif-fudin-478a6a304" target="_blank" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-pic">
+                    <!-- Placeholder untuk foto profil -->
+                    👤
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Saya adalah seorang siswa SMK PGRI 5 Jember jurusan Rekayasa Perangkat Lunak dengan passion yang kuat dalam pengembangan perangkat lunak. Saya memiliki pengalaman dalam membangun aplikasi web menggunakan Laravel dan Flutter untuk aplikasi mobile.</p>
+                    <p>Selain coding, saya juga aktif dalam organisasi sekolah sebagai Ketua OSIS dan memiliki kemampuan dalam desain grafis serta video editing. Saya percaya bahwa teknologi dapat memberikan dampak positif bagi masyarakat, dan itu yang menjadi motivasi saya untuk terus belajar dan berkembang.</p>
+                    
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <h3>8+</h3>
+                            <p>Projects</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>3+</h3>
+                            <p>Years Learning</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>∞</h3>
+                            <p>Passion</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fa fa-globe" aria-hidden="true"></i> Web Development</h3>
+                    <ul>
+                        <li>Laravel Framework</li>
+                        <li>Laravel API</li>
+                        <li>JavaScript</li>
+                        <li>jQuery</li>
+                        <li>HTML & CSS</li>
+                        <li>MySQL Workbench</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fa fa-mobile" aria-hidden="true"></i> Mobile Development</h3>
+                    <ul>
+                        <li>Flutter</li>
+                        <li>Dart</li>
+                        <li>Mobile UI/UX</li>
+                        <li>REST API Integration</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fa fa-code" aria-hidden="true"></i> Tools & Others</h3>
+                    <ul>
+                        <li>Git & GitHub</li>
+                        <li>Visual Studio Code</li>
+                        <li>Linux Ubuntu</li>
+                        <li>Docker</li>
+                        <li>Python (MediaPipe, Bot Telegram)</li>
+                        <li>Arduino IoT</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fa fa-pencil" aria-hidden="true"></i> Creative Skills</h3>
+                    <ul>
+                        <li>UI/UX Design (Figma)</li>
+                        <li>Video Editing</li>
+                        <li>Graphic Design</li>
+                        <li>Algorithm Thinking</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://i.postimg.cc/NMg2v9m1/Screenshot-From-2025-10-13-10-54-26.png" alt="Pemilihan Ketua Osis">
+                    </div>
+                    <div class="project-content">
+                        <h3>Sistem Pemilihan Ketua OSIS</h3>
+                        <p>Website untuk pemilihan ketua OSIS dengan hosting lokal server. Sudah diimplementasikan di sekolah dengan konfigurasi Docker container di Ubuntu Server 20.04.</p>
+                        <div class="tech-stack">
+                            <span>Laravel</span>
+                            <span>Docker</span>
+                            <span>Ubuntu Server</span>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Stn77/pemilos-pbayu.git" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://i.postimg.cc/Hk9Bw5Yk/Screenshot-From-2025-11-06-09-36-08.png" alt="Absensi QR">
+                    </div>
+                    <div class="project-content">
+                        <h3>Sistem Absensi QR Code</h3>
+                        <p>Website absensi berbasis QR Code sebagai tugas ujian yang akan diimplementasikan di sekolah. Memudahkan proses absensi siswa secara digital.</p>
+                        <div class="tech-stack">
+                            <span>Laravel</span>
+                            <span>QR Code</span>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Stn77/pw.git" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">📲</div>
+                    <div class="project-content">
+                        <h3>Aplikasi Absensi Mobile</h3>
+                        <p>Aplikasi mobile untuk sistem absensi menggunakan Flutter. Masih dalam tahap pengembangan dengan fitur-fitur modern untuk kemudahan pengguna.</p>
+                        <div class="tech-stack">
+                            <span>Flutter</span>
+                            <span>Dart</span>
+                            <span>Mobile</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Stn77/absensi.git" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-image">⚙️</div>
+                    <div class="project-content">
+                        <h3>Back-End Aplikasi Absensi</h3>
+                        <p>RESTful API untuk mendukung aplikasi absensi mobile. Dibangun dengan Laravel dan masih dalam pengembangan aktif.</p>
+                        <div class="tech-stack">
+                            <span>Laravel</span>
+                            <span>REST API</span>
+                            <span>JWT</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Stn77/absensi-be.git" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <div class="project-image">🎬</div>
+                    <div class="project-content">
+                        <h3>Video Editing Projects</h3>
+                        <p>Kumpulan project video editing yang telah saya buat, termasuk video untuk kegiatan sekolah dan konten kreatif lainnya.</p>
+                        <div class="tech-stack">
+                            <span>Video Editing</span>
+                            <span>Motion Graphics</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.facebook.com/share/v/1Dovg8KeZr/" target="_blank">Video 1</a>
+                            <a href="https://www.facebook.com/share/r/1X31sJCSFF/" target="_blank">Video 2</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://i.postimg.cc/CKVp1bc3/Screenshot-From-2025-11-06-09-40-21.png" alt="">
+                    </div>
+                    <div class="project-content">
+                        <h3>Desain Website Pertanian</h3>
+                        <p>Desain UI/UX untuk website bertema pertanian. Dibuat menggunakan Figma dengan fokus pada user experience yang optimal.</p>
+                        <div class="tech-stack">
+                            <span>Figma</span>
+                            <span>UI/UX Design</span>
+                            <span>Web Design</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.figma.com/design/UjBVFEwmnOh21O16vYFN2f/web-pertanian?node-id=0-1&t=8KhbENarQGxFdDdf-1" target="_blank">Figma</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 7 -->
+                <div class="project-card">
+                    <div class="project-image">🤖</div>
+                    <div class="project-content">
+                        <h3>Proyek Arduino IoT</h3>
+                        <p>Proyek berbasis Arduino untuk IoT. Dikerjakan secara tim dan masih dalam proses pengembangan untuk implementasi solusi hardware-software terintegrasi.</p>
+                        <div class="tech-stack">
+                            <span>Arduino</span>
+                            <span>IoT</span>
+                            <span>Hardware</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" onclick="alert('Dalam pengembangan'); return false;">In Progress</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <h2>Experience & Education</h2>
+            <div class="experience-timeline">
+                <!-- Education -->
+                <div class="experience-item">
+                    <h3>SMK PGRI 5 Jember</h3>
+                    <p class="period">Juli 2023 - Juni 2026 (Expected)</p>
+                    <p>Jurusan: Rekayasa Perangkat Lunak (PPLG)</p>
+                    <p>Nilai Rata-rata: 84/100</p>
+                    <div class="certificate-placeholder">
+                        📜 [Placeholder untuk foto ijazah/sertifikat]
+                    </div>
+                </div>
+
+                <!-- Work Experience 1 -->
+                <div class="experience-item">
+                    <h3>Magang di CV Nusantara Tama</h3>
+                    <p class="period">April - Agustus 2025</p>
+                    <p>Posisi: Programmer</p>
+                    <ul>
+                        <li>Mengembangkan proyek sistem keuangan dari klien</li>
+                        <li>Kolaborasi dalam analisis sistem</li>
+                        <li>Evaluasi dan pengembangan sistem</li>
+                    </ul>
+                    <div class="certificate-placeholder">
+                        📜 [Placeholder untuk sertifikat magang]
+                    </div>
+                </div>
+
+                <!-- Organization 1 -->
+                <div class="experience-item">
+                    <h3>Ketua OSIS SMK PGRI 5 Jember</h3>
+                    <p class="period">Oktober 2024 - Oktober 2025</p>
+                    <ul>
+                        <li>Memimpin proposal kegiatan sekolah</li>
+                        <li>Menjadi ketua panitia kegiatan classmeeting</li>
+                        <li>Menjadi ketua panitia MPLS 2025</li>
+                    </ul>
+                    <div class="certificate-placeholder">
+                        📸 [Placeholder untuk foto kegiatan organisasi]
+                    </div>
+                </div>
+
+                <!-- Organization 2 -->
+                <div class="experience-item">
+                    <h3>Duta Prima 2024</h3>
+                    <p class="period">2024 - 2025</p>
+                    <p>SMK PGRI 5 Jember</p>
+                    <ul>
+                        <li>Menjadi Top 5 Besar finalis Duta Prima</li>
+                    </ul>
+                    <div class="certificate-placeholder">
+                        📸 [Placeholder untuk foto Duta Prima]
+                    </div>
+                </div>
+
+                <!-- Previous Education -->
+                <div class="experience-item">
+                    <h3>SMPN 2 Kencong</h3>
+                    <p class="period">Juli 2020 - Juni 2023</p>
+                    <p>Jember, Jawa Timur</p>
+                    <div class="certificate-placeholder">
+                        📜 [Placeholder untuk ijazah SMP]
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <h3>MI Al Islah Jatiagung</h3>
+                    <p class="period">Juli 2013 - Juni 2020</p>
+                    <p>Jember, Jawa Timur</p>
+                    <div class="certificate-placeholder">
+                        📜 [Placeholder untuk ijazah MI]
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <p>Tertarik untuk berkolaborasi atau punya pertanyaan? Jangan ragu untuk menghubungi saya!</p>
+                
+                <div class="cc">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <strong><i class="fa fa-envelope-o" aria-hidden="true"></i> Email:</strong> <span>[ISI EMAIL ANDA DISINI]</span>
+                        </div>
+                        <div class="contact-item">
+                            <strong><i class="fa fa-mobile" aria-hidden="true"></i> Phone:</strong> <span>[ISI NOMOR TELEPON ANDA DISINI]</span>
+                        </div>
+                        <div class="contact-item">
+                            <strong><i class="fa fa-map-marker" aria-hidden="true"></i> Location:</strong> <span>Jember, Jawa Timur, Indonesia</span>
+                        </div>
+                    </div>
+    
+                    <form id="contactForm" style="margin-top: 3rem; margin-left: auto; margin-right: auto;">
+                        <div style="margin-bottom: 1.5rem;">
+                            <input type="text" id="nama" name="nama" placeholder="Nama Anda" required
+                                style="width: 100%; padding: 1rem; border: none; border-radius: 5px; font-size: 1rem;">
+                        </div>
+                        <div style="margin-bottom: 1.5rem;">
+                            <input type="email" id="email" name="email" placeholder="Email Anda" required
+                                style="width: 100%; padding: 1rem; border: none; border-radius: 5px; font-size: 1rem;">
+                        </div>
+                        <div style="margin-bottom: 1.5rem;">
+                            <input type="text" id="perihal" name="perihal" placeholder="Perihal" required
+                                style="width: 100%; padding: 1rem; border: none; border-radius: 5px; font-size: 1rem;">
+                        </div>
+                        <div style="margin-bottom: 1.5rem;">
+                            <textarea id="pesan" name="pesan" placeholder="Pesan Anda" rows="5" required
+                                style="width: 100%; padding: 1rem; border: none; border-radius: 5px; font-size: 1rem; resize: vertical;"></textarea>
+                        </div>
+                        <button type="submit" id="submitBtn"
+                            style="width: 100%; padding: 1rem; background: var(--highlight); color: var(--primary); border: none; border-radius: 5px; font-size: 1.1rem; font-weight: bold; cursor: pointer; transition: all 0.3s;">
+                            Kirim Pesan
+                        </button>
+                        <div id="formMessage" style="margin-top: 1rem; text-align: center; font-weight: bold;"></div>
+                    </form>
+                </div>
+
+                <div class="social-links" style="justify-content: center; margin-top: 2rem;">
+                    <a href="https://github.com/Stn77" target="_blank" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/suyut_io.zip/" target="_blank" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/yusuf.fudin.5" target="_blank" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="https://id.linkedin.com/in/yusuf-sarif-fudin-478a6a304" target="_blank" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Yusuf Sarif Fudin (Stone7). Built with passion and coffee ☕</p>
+        <p>Made with ❤️ in Jember, Indonesia</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
