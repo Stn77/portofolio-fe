@@ -439,6 +439,11 @@ h2::after {
     justify-content: center;
 }
 
+.contact-content a {
+    color: white;
+    text-decoration: none;
+}
+
 .contact-item strong {
     color: var(--highlight);
 }
