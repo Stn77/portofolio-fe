@@ -1,5 +1,5 @@
 
-const API_URL = 'http://localhost:3000/api/send-email';
+const API_URL = 'https://portofolio-be-seven.vercel.app/api/';
 
 document.getElementById('contactForm').addEventListener('submit', function(e) {
     e.preventDefault();
