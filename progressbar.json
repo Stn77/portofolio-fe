@@ -1,0 +1,110 @@
+{
+    "web_dev": {
+        "laravel_framework": {
+            "name": "laravel_framework",
+            "point": 65,
+            "status": false
+        },
+        "laravel_api": {
+            "name": "laravel_api",
+            "point": 45,
+            "status": false
+        },
+        "javascript": {
+            "name": "javascript",
+            "point": 65,
+            "status": false
+        },
+        "jqery": {
+            "name": "jquery",
+            "point": 75,
+            "status": false
+        },
+        "html_css": {
+            "name": "HTML_CSS",
+            "point": 65,
+            "status": false
+        },
+        "mysql_workbeanch": {
+            "name": "mysql_workbeanch",
+            "point": 30,
+            "status": false
+        }
+    },
+    "mobile_dev": {
+        "flutter": {
+            "name": "flutter",
+            "point": 25,
+            "status": false
+        },
+        "dart": {
+            "name": "dart",
+            "point": 20,
+            "status": false
+        },
+        "mobile_ui_ux": {
+            "name": "mobile_UI_UX",
+            "point": 43,
+            "status": false
+        },
+        "rest_api_integration": {
+            "name": "rest_api_integration",
+            "point": 10,
+            "status": false
+        }
+    },
+    "tools_&_orthers": {
+        "git_github": {
+            "name": "git_github",
+            "point": 67,
+            "status": false
+        },
+        "vscode": {
+            "name": "vscode",
+            "point": 85,
+            "status": false
+        },
+        "linux_ubuntu": {
+            "name": "linux_ubuntu",
+            "point": 78,
+            "status": false
+        },
+        "docker": {
+            "name": "docker",
+            "point": 45,
+            "status": false
+        },
+        "python": {
+            "name": "python",
+            "point": 54,
+            "status": false
+        },
+        "arduino_iot": {
+            "name": "arduino_iot",
+            "point": 10,
+            "status": false
+        }
+    },
+    "creative_skills": {
+        "ui_ux_figma": {
+            "name": "UI_UX_figma",
+            "point": 50,
+            "status": false
+        },
+        "video_editing": {
+            "name": "video_editing",
+            "point": 45,
+            "status": false
+        },
+        "graphic_design": {
+            "name": "graphic_design",
+            "point": 56,
+            "status": false
+        },
+        "algorythm_thinking": {
+            "name": "algorythm_thinking",
+            "point": 76,
+            "status": true
+        }
+    }
+}
