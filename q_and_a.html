@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yusuf Sarif Fudin - Q&A</title>
+    <link rel="stylesheet" href="q_and_a.css">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="container-nav">
+            <div class="logo-nav">Stone7</div>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="navMenu">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#skills">Skills</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#experience">Experience</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li><a class="active" href="q_and_a.html">Q&A</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="border p-3 bg-primary" id="main-section">
+        <div class="container">
+            <form id="q_and_a_form">
+                <div style="margin-bottom: 1.5rem;">
+                    <input type="text" id="nama" name="nama" placeholder="Nama Samaran" required
+                        style="width: 100%; padding: 1rem; border: none; border-radius: 5px; font-size: 1rem;">
+                </div>
+
+                <div style="margin-bottom: 1.5rem;">
+                    <textarea id="pesan" name="pesan" placeholder="Pesan Anda" rows="5" required maxlength="4096"
+                        style="width: 100%; padding: 1rem; border: none; border-radius: 5px; font-size: 1rem; resize: vertical;"></textarea>
+                </div>
+                <button type="submit" id="submitBtn"
+                    style="width: 100%; padding: 1rem; background: var(--highlight); color: var(--primary); border: none; border-radius: 5px; font-size: 1.1rem; font-weight: bold; cursor: pointer; transition: all 0.3s;">
+                    Kirim Pesan
+                </button>
+                <div id="formMessage" style="margin-top: 1rem; text-align: center; font-weight: bold;"></div>
+            </form>
+        </div>
+    </section>
+    
+    <script>
+        // Fungsi untuk toggle menu mobile
+        function toggleMenu() {
+            const navMenu = document.getElementById('navMenu');
+            navMenu.classList.toggle('active');
+        }
+        
+        // Tutup menu mobile saat klik di luar
+        document.addEventListener('click', function(event) {
+            const navMenu = document.getElementById('navMenu');
+            const menuToggle = document.querySelector('.menu-toggle');
+            
+            if (!navMenu.contains(event.target) && !menuToggle.contains(event.target)) {
+                navMenu.classList.remove('active');
+            }
+        });
+        
+        // Tutup menu mobile saat link diklik
+        const navLinks = document.querySelectorAll('nav a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                const navMenu = document.getElementById('navMenu');
+                navMenu.classList.remove('active');
+            });
+        });
+    </script>
+    <script src="js/q_and_a.js"></script>
+    <script src="js/style.js"></script>
+</body>
+
+</html>

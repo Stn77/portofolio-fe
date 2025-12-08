@@ -59,10 +59,16 @@ nav a {
     text-decoration: none;
     transition: color 0.3s;
     font-weight: 500;
+    transition: all 250ms ease-in;
+    padding: 2px 0;
 }
 
 nav a:hover {
     color: var(--highlight);
+}
+
+.active{
+    border-bottom: 1px solid var(--light);
 }
 
 /* Hero Section */
