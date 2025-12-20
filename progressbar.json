@@ -106,5 +106,22 @@
             "point": 76,
             "status": true
         }
+    },
+    "soft_skills": {
+        "public_speaking": {
+            "name": "public_Speaking",
+            "point": 75,
+            "status": true
+        },
+        "leadership": {
+            "name": "Leadership",
+            "point": 66,
+            "status": true
+        },
+        "team_work": {
+            "name": "team_work",
+            "point": 55,
+            "status": true
+        }
     }
 }
